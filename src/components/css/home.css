@@ -1,0 +1,145 @@
+/* Default styles for larger screens */
+body {
+    font-size: 16px;
+    /* Add other default styles here */
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        /* Add styles specific to smaller screens here */
+    }
+
+    /* Example: Adjust the width of cards for smaller screens */
+    .card {
+        width: 100%;
+        /* Make cards take up the full width */
+    }
+}
+
+
+img {
+    float: right;
+}
+
+img:hover {
+    border: 2px solid #00000000;
+    /* Add a solid border for the image */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* body {
+    background-image: url(../images/background1.jpg);
+    opacity: 100%;
+} */
+
+div {
+    color: white;
+}
+
+nav {
+    /* background-color: #0c0a4f; */
+    background-color: #fc060600;
+    margin-left: 40px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer {
+    /* background-color: rgb(9, 9, 85); */
+    color: #ffffff;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 70%;
+
+    /* height: 100%; */
+}
+
+
+/* nav a{
+    color: white;
+} */
+.fontwhite {
+    color: white;
+}
+
+/* Upcoming.css or within <style> block in your component */
+.bordered-table {
+    color: white;
+    border-collapse: collapse;
+    /* This property is important for creating cell borders */
+    width: 100%;
+    /* Adjust the width as needed */
+}
+
+.bordered-table th,
+.bordered-table td {
+    border: 1px solid #dddddd;
+    /* Add a 1px solid border to both th and td elements */
+    padding: 8px;
+    /* Add some padding for spacing inside cells */
+    text-align: left;
+    /* Align cell content as needed */
+}
+
+tr:hover {
+    background-color: rgb(77, 10, 10);
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+select {
+    padding: 6px;
+    width: 100%;
+}
+
+#seat {
+    width: 30%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    padding: 6px;
+    width: 100%;
+}
+
+input:hover {
+    padding: 6px;
+    width: 100%;
+    background-color: #dddddd;
+}
+
+input[type="submit"] {
+    margin-top: 5px;
+    padding: 6px;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: coral;
+    margin-top: 5px;
+}
